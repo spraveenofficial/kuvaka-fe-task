@@ -9,7 +9,7 @@ A fully functional, responsive, and visually appealing frontend for a Gemini-sty
 
 ## 🌟 Live Demo
 
-🔗 **[View Live Application](https://google.com)**
+🔗 **[View Live Application](https://kuvaka-fe-task.vercel.app/)**
 
 > **Demo Credentials**: Enter any phone number and any 6-digit OTP code to access the application.
 
@@ -42,7 +42,7 @@ Gemini Chat is a modern, responsive chat application that simulates conversation
 
    ```bash
    git clone https://github.com/spraveenofficial/kuvaka-fe-task.git
-   cd gemini-chat-app
+   cd kuvaka-fe-task
    ```
 
 2. **Install dependencies**

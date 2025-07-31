@@ -84,7 +84,6 @@ export default function WelcomeScreen({ onMenuClick }: WelcomeScreenProps) {
                             Start a conversation and explore the possibilities together.
                         </p>
 
-                        {/* Quick Start Options */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                             {quickStartOptions.map((option, index) => {
                                 const IconComponent = option.icon
@@ -122,31 +121,6 @@ export default function WelcomeScreen({ onMenuClick }: WelcomeScreenProps) {
                                 <Sparkles className="w-5 h-5 mr-2" />
                                 Start New Conversation
                             </Button>
-                        </div>
-
-                        {/* Tips Section */}
-                        <div className="bg-muted/50 rounded-lg p-6 border">
-                            <h3 className="font-semibold text-lg mb-4 text-foreground">
-                                💡 Pro Tips
-                            </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-muted-foreground">
-                                <div className="flex items-center gap-2">
-                                    <div className="w-2 h-2 bg-blue-500 rounded-full" />
-                                    <span>Long press messages to see details and copy</span>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <div className="w-2 h-2 bg-green-500 rounded-full" />
-                                    <span>Upload images by clicking the attachment icon</span>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <div className="w-2 h-2 bg-purple-500 rounded-full" />
-                                    <span>Search conversations using the search bar</span>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <div className="w-2 h-2 bg-orange-500 rounded-full" />
-                                    <span>Toggle dark mode anytime with the theme button</span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
